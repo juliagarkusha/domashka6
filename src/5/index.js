@@ -4,8 +4,6 @@
 
 const power = (a, b) => Math.pow(a, b);
 
-const doFunction = (a, b, power) => {
-    return power(a, b);
-}
+const doFunction = (a, b, power) => power(a, b);
 
 console.log('debug doFunction', doFunction(2, 3, power));
